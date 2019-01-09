@@ -1,0 +1,193 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.white-background{
+  background-color: #fff;
+
+}
+.dark-background{
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* title */
+#title .container-fluid {
+  padding: 3% 15% 9%;
+}
+
+#title{
+  text-align: left;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.iphone-containing-column{
+ padding-left: 9%;
+}
+
+.iphone-pic {
+  position: absolute;
+  width: 56%;
+}
+
+.rotateimg180 {
+  -webkit-transform: rotate(25deg);
+  -moz-transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  -o-transform: rotate(25deg);
+  transform: rotate(25deg);
+}
+
+/* features */
+
+#features {
+  padding: 7% 10%; /*different padding to accomodate heading of features in one line*/
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 5%;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-paragraph {
+  margin-bottom: 10%;
+  color: #8f8f8f;
+  padding: 0 4%;
+/* to make text go to two lines */
+}
+
+/* testimonials */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  line-height: 1.5;
+  font-size: 2.5rem;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+/* press */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press_img {
+  width: 15%;
+  margin: 3% 2% 0;
+}
+
+/* card */
+
+.card-each {
+  margin-bottom: 3%;
+  margin-top: 5%;
+}
+
+.cta-button{
+  margin: 1% 2% 0 1%;
+}
+/* footer */
+
+.footer-icon {
+  margin: 5% 1% 2%;
+}
+
+.footer-copyright-text {
+  font-weight: lighter;
+  color: #d1d1d1;
+  font-size: 0.8rem;
+  padding-top: 1%;
+}
+
+/* media queries */
+
+@media (max-width: 1058px) {
+
+  .navbar-brand, .big-heading {
+    font-size: 2.5rem;
+  }
+
+ .price-section-dog-name {
+   font-size: 1.5rem;
+ }
+
+  .btn{
+      font-size: 1em !important;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .iphone-containing-column {
+   padding-left: 0%;
+  }
+
+  .iphone-pic {
+    padding-top: 3%;
+    position: static;
+    transform: rotate(0);
+}
+
+.testimonial-text {
+  font-size: 1.5rem;
+}
+
+}
